@@ -1,0 +1,61 @@
+% =========================
+% FICHIER PRINCIPAL (main.tex)
+% Classe: report (chapitres)
+% Rôle: définir le préambule + assembler les chapitres
+% =========================
+
+\documentclass[12pt,a4paper]{report}
+% \documentclass définit le type de document.
+% report = structure avec \chapter, \section, etc.
+% Les options (12pt, a4paper) règlent la taille de police et le format papier.
+
+% ---------- Préambule commun ----------
+\input{Preamble}
+% \input{...} insère le contenu d’un fichier à cet endroit (comme un copier-coller).
+% On l’utilise souvent pour mettre les packages et macros dans un fichier séparé.
+
+% ---------- Compilation partielle (optionnel) ----------
+% \includeonly{chapters/02-method,chapters/03-results}
+% \includeonly permet de compiler uniquement certains chapitres
+% (ceux appelés via \include) pour accélérer la compilation.
+% Important: ça n’a d’effet que sur \include, pas sur \input.
+
+\begin{document}
+% Début du contenu visible du document.
+% Tout ce qui est avant = préambule (configuration), tout ce qui est après = contenu.
+
+% ---------- Pages de début (exemples) ----------
+\title{Titre du rapport}
+% Définit le titre (utilisé par \maketitle).
+
+\author{Prénom NOM}
+% Définit l’auteur (utilisé par \maketitle).
+
+\date{\today}
+% Définit la date (ici: date du jour). Peut être vide: \date{}.
+
+\maketitle
+% Génère la page de titre à partir de \title, \author, \date.
+
+\tableofcontents
+% Génère la table des matières (sommaire).
+
+% ---------- Chapitres ----------
+\include{Chapters/01_Intro}
+% \include insère un “gros bloc” (souvent un chapitre).
+% Particularité: force des sauts de page avant/après (pratique pour des chapitres).
+
+\include{Chapters/02_Marketing}
+
+% \include{chapters/03-results}
+
+% ---------- Annexes ----------
+\appendix
+% À partir d’ici, les chapitres deviennent des annexes (A, B, C... au lieu de 1, 2, 3).
+
+% \include{appendices/app-a}
+
+% ---------- Fin du document ----------
+\end{document}
+% Fin du document: rien ne doit apparaître après.
+
