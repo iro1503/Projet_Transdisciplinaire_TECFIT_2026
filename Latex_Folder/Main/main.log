@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.21)  1 MAR 2026 17:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.21)  2 MAR 2026 14:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -766,7 +766,8 @@ Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 23.
  (C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (main.aux (Chapters/01_Intro/01_Intro.aux) (Chapters/02_Marketing/02_Marketing.aux))
+)
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -787,7 +788,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
- (C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+(C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count361
 \scratchdimen=\dimen337
@@ -849,14 +850,13 @@ Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             reported on input line 23.
 LaTeX Info: Redefining \up on input line 23.
 Package hyperref Info: Link coloring OFF on input line 23.
-(main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 39.
- (C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+(C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 39.
@@ -881,7 +881,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 [1
 
-{C:/Users/vlieg/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}] (main.toc)
+{C:/Users/vlieg/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}]
+No file main.toc.
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
@@ -910,26 +911,693 @@ Chapitre 1.
 
 
 
-] (main.aux (Chapters/01_Intro/01_Intro.aux) (Chapters/02_Marketing/02_Marketing.aux))
+]
+\openout2 = `Chapters/03_Finance/03_Finance.aux'.
+
+
+No file Chapters/03_Finance/03_Finance.tex.
+\openout2 = `"Chapters/03_Finance/03_Finance/analyse financière des ratios.aux"'.
+
+No file Chapters/03_Finance/03_Finance/analyse financière des ratios.tex.
+
+
+[3
+
+
+
+
+
+
+
+
+]
+\openout2 = `"subchapter/Marge Nette sur vente.aux"'.
+
+
+No file subchapter/Marge Nette sur vente.tex.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 66.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 66.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 66.
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:73: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 ...chiffres indiquent qu’en 2024, pour 1 
+                                                  euro de ventes, 24 centi...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:73: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 ...’en 2024, pour 1 euro de ventes, 24 
+                                                  centimes ont été transfo...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:75: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 ...he, la baisse de 2024 mérite attention 
+                                                  : elle résulte d’une au...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+
+[4
+
+
+
+]
+\openout2 = `"subchapter/Taux de valeur ajoutée.aux"'.
+
+
+No file subchapter/Taux de valeur ajoutée.tex.
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:89: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 ...ugmentation du chiffre d’affaires (de 
+                                                  € 792 505 à €�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 89.
+(C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:89: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 ...ation du chiffre d’affaires (de € 
+                                                  792 505 à € 1 1...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:89: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 ...du chiffre d’affaires (de € 792 
+                                                  505 à € 1 108 7...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:89: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 ...e d’affaires (de € 792 505 à 
+                                                  € 1 108 783) combi...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:89: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 ...affaires (de € 792 505 à € 
+                                                  1 108 783) combinée �...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:89: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 ...ires (de € 792 505 à € 1 
+                                                  108 783) combinée à un...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:89: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 ...de € 792 505 à € 1 108 
+                                                  783) combinée à une bais...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:89: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 ...aux achats et services externes (compte 
+                                                  60/61 : de € 733�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:89: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 ...ts et services externes (compte 60/61 
+                                                  : de € 733 451,64 ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:89: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 ...ervices externes (compte 60/61 : de 
+                                                  € 733 451,64 à �...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:89: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 ...s externes (compte 60/61 : de € 
+                                                  733 451,64 à € 66...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:89: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 ...rnes (compte 60/61 : de € 733 
+                                                  451,64 à € 661 16...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:89: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 ... 60/61 : de € 733 451,64 à 
+                                                  € 661 167). Par cons...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:89: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 ...61 : de € 733 451,64 à € 
+                                                  661 167). Par conséquen...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:89: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 ... de € 733 451,64 à € 661 
+                                                  167). Par conséquent, la ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:89: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 ...tement progressé (de € 265,061.00 à 
+                                                  € 511,992.00).
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:90: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ...se des charges d’exploitation (compte 
+                                                  60/61 : + € 68 6...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:90: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ...harges d’exploitation (compte 60/61 
+                                                  : + € 68 644 par...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:90: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ... d’exploitation (compte 60/61 : + 
+                                                  € 68 644 par rappo...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:90: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ...xploitation (compte 60/61 : + € 
+                                                  68 644 par rapport à�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:90: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ...tation (compte 60/61 : + € 68 
+                                                  644 par rapport à 202...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:90: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ... (compte 60/61 : + € 68 644 
+                                                  par rapport à 2023). Le...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:90: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ...��: + € 68 644 par rapport à 
+                                                  2023). Le maintien du rati...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+
+[5
+
+
+
+{C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+\openout2 = `"subchapter/Valeur ajoutée par personne occupée.aux"'.
+
+
+No file subchapter/Valeur ajoutée par personne occupée.tex.
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:96: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 2022 
+            : 155 918,06 €   |  2023 : 124 876,83 €  |�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:96: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 2022 : 155 918,06 
+                           €   |  2023 : 124 876,83 €  |�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:96: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 2022 : 155 918,06 €   
+                                   |  2023 : 124 876,83 €  |�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:96: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 2022 : 155 918,06 €   | 
+                                        2023 : 124 876,83 €  |�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:96: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 2022 : 155 918,06 €   |  
+                                          2023 : 124 876,83 €  |�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:96: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 2022 : 155 918,06 €   |  2023 
+                                                 : 124 876,83 €  |�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:96: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 ...06 €   |  2023 : 124 876,83 
+                                                  €  |  2024 : 1...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:96: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 ...��   |  2023 : 124 876,83 € 
+                                                   |  2024 : 133 174...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:96: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 ...  |  2023 : 124 876,83 €  
+                                                  |  2024 : 133 174,59...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:96: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 ...|  2023 : 124 876,83 €  | 
+                                                   2024 : 133 174,59 €
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:96: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 ...� 2023 : 124 876,83 €  |  
+                                                  2024 : 133 174,59 €
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:96: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 ...3 : 124 876,83 €  |  2024 
+                                                  : 133 174,59 €
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:96: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 ...3 €  |  2024 : 133 174,59 
+                                                  €
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:102: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102  155 918,06 
+                    € & 124 876,83 € & 133 174,59 € \\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:102: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102  155 918,06 € & 124 876,83 
+                                       € & 133 174,59 € \\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:102: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 ... € & 124 876,83 € & 133 174,59 
+                                                  € \\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:105: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.105 ...mployés équivalents temps plein (1,7 
+                                                  ETP). En 2023, ce nombre p...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:105: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.105 ...�ETP). En 2023, ce nombre passe à 4,1 
+                                                  ETP, soit une hausse de 14...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:106: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106 ...ère augmentation observée en 2024 (+ 
+                                                  6.6 \%) s’explique par...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Documents/Etudes/Cours HEC/Master 3/TransDisciplinaire/Projet_Transdisciplinaire_TECFIT_2026/Latex_Folder/Main/main.tex:106: LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106 ...ugmentation observée en 2024 (+ 6.6 
+                                                  \%) s’explique par une m...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+
+[6
+
+
+
+] (main.aux (Chapters/01_Intro/01_Intro.aux) (Chapters/02_Marketing/02_Marketing.aux) (Chapters/03_Finance/03_Finance.aux) (Chapters/03_Finance/03_Finance/analyse financière des ratios.aux) (subchapter/Marge Nette sur vente.aux) (subchapter/Taux de valeur ajoutée.aux) (subchapter/Valeur ajoutée par personne occupée.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7C22FE62A91EB9FF189728A2E36EA6A5;88.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  7C22FE62A91EB9FF189728A2E36EA6A5;88.
  ) 
 Here is how much of TeX's memory you used:
- 29628 strings out of 473530
- 572487 string characters out of 5714794
- 1030382 words of memory out of 5000000
- 52325 multiletter control sequences out of 15000+600000
- 592064 words of font info for 56 fonts, out of 8000000 for 9000
+ 29774 strings out of 473530
+ 579167 string characters out of 5714794
+ 1033197 words of memory out of 5000000
+ 52445 multiletter control sequences out of 15000+600000
+ 600243 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 107i,6n,110p,599b,479s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb>
-Output written on main.pdf (3 pages, 100624 bytes).
+ 107i,9n,110p,961b,479s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
+Output written on main.pdf (7 pages, 99423 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
- 5 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
