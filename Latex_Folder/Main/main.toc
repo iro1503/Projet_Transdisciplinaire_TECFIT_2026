@@ -1,2 +1,6 @@
 \babel@toc {french}{}\relax 
 \contentsline {chapter}{\numberline {1}Marketing}{2}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Finance}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Marge Nette sur vente}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Taux de valeur ajoutée}{4}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Valeur ajoutée par personne occupée}{5}{subsection.2.1.2}%
