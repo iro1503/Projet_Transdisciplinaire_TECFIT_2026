@@ -318,6 +318,15 @@ INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmr.fd
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmr.fd
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmr.fd
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr12.tfm
+INPUT .\main.aux
+INPUT .\main.aux
+INPUT main.aux
+INPUT .\Chapters\01_Intro\01_Intro.aux
+INPUT .\Chapters\01_Intro\01_Intro.aux
+INPUT Chapters\01_Intro\01_Intro.aux
+INPUT .\Chapters\02_Marketing\02_Marketing.aux
+INPUT .\Chapters\02_Marketing\02_Marketing.aux
+INPUT Chapters\02_Marketing\02_Marketing.aux
 OUTPUT main.aux
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -327,8 +336,14 @@ INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstop
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-OUTPUT main.out
+INPUT .\main.out
+INPUT .\main.out
+INPUT main.out
+INPUT main.out
 OUTPUT main.pdf
+INPUT .\main.out
+INPUT .\main.out
+OUTPUT main.out
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr17.tfm
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr12.tfm
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmr.fd
@@ -357,6 +372,10 @@ INPUT C:\Users\vlieg\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr17.tfm
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
+INPUT .\main.toc
+INPUT .\main.toc
+INPUT main.toc
+INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
 OUTPUT main.toc
 INPUT .\Chapters\01_Intro\01_Intro.tex
 INPUT .\Chapters\01_Intro\01_Intro.tex
@@ -370,26 +389,6 @@ OUTPUT Chapters\02_Marketing\02_Marketing.aux
 INPUT .\Chapters\02_Marketing\02_Marketing.tex
 INPUT .\Chapters\02_Marketing\02_Marketing.tex
 INPUT Chapters\02_Marketing\02_Marketing.tex
-OUTPUT Chapters\03_Finance\03_Finance.aux
-OUTPUT Chapters\03_Finance\03_Finance\analyse financière des ratios.aux
-OUTPUT subchapter\Marge Nette sur vente.aux
-INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr12.tfm
-INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr8.tfm
-INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr6.tfm
-INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi12.tfm
-INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi8.tfm
-INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi6.tfm
-INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
-INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy8.tfm
-INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy6.tfm
-INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
-OUTPUT subchapter\Taux de valeur ajoutée.aux
-INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
-INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
-INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
-INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ts1-lmr12.tfm
-INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ts1.enc
-OUTPUT subchapter\Valeur ajoutée par personne occupée.aux
 INPUT main.aux
 INPUT .\Chapters\01_Intro\01_Intro.aux
 INPUT .\Chapters\01_Intro\01_Intro.aux
@@ -397,21 +396,6 @@ INPUT Chapters\01_Intro\01_Intro.aux
 INPUT .\Chapters\02_Marketing\02_Marketing.aux
 INPUT .\Chapters\02_Marketing\02_Marketing.aux
 INPUT Chapters\02_Marketing\02_Marketing.aux
-INPUT .\Chapters\03_Finance\03_Finance.aux
-INPUT .\Chapters\03_Finance\03_Finance.aux
-INPUT Chapters\03_Finance\03_Finance.aux
-INPUT .\Chapters\03_Finance\03_Finance\analyse financière des ratios.aux
-INPUT .\Chapters\03_Finance\03_Finance\analyse financière des ratios.aux
-INPUT Chapters\03_Finance\03_Finance\analyse financière des ratios.aux
-INPUT .\subchapter\Marge Nette sur vente.aux
-INPUT .\subchapter\Marge Nette sur vente.aux
-INPUT subchapter\Marge Nette sur vente.aux
-INPUT .\subchapter\Taux de valeur ajoutée.aux
-INPUT .\subchapter\Taux de valeur ajoutée.aux
-INPUT subchapter\Taux de valeur ajoutée.aux
-INPUT .\subchapter\Valeur ajoutée par personne occupée.aux
-INPUT .\subchapter\Valeur ajoutée par personne occupée.aux
-INPUT subchapter\Valeur ajoutée par personne occupée.aux
 INPUT .\main.out
 INPUT .\main.out
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
