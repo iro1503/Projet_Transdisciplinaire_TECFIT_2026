@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.21)  2 MAR 2026 14:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.21)  2 MAR 2026 22:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -930,16 +930,59 @@ Chapitre 2.
 
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 40.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 39.
  (C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-[4{C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}])
+[4{C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--61
+
+ []
+
+
 
 [5]
+Underfull \hbox (badness 10000) in paragraph at lines 63--76
 
-[6
+ []
+
+
+
+[6]
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 108--115
+
+ []
+
+
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 133--135
+
+ []
+
+
+
+[9]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[10]
+
+[11])
+
+[12]
+
+[13
 
 
 ]
@@ -951,20 +994,20 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4D5A42FD19E83AC4D7AA305D2849A7E0;771.
+(rerunfilecheck)             Checksum: C5AB7A9D32D1A05130F10B5F5CEFECC8;2680.
  ) 
 Here is how much of TeX's memory you used:
- 29762 strings out of 473530
- 577289 string characters out of 5714794
- 1037524 words of memory out of 5000000
- 52420 multiletter control sequences out of 15000+600000
+ 29792 strings out of 473530
+ 577716 string characters out of 5714794
+ 1038535 words of memory out of 5000000
+ 52428 multiletter control sequences out of 15000+600000
  609254 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 107i,9n,110p,1002b,484s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,9n,110p,1004b,479s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
-Output written on main.pdf (7 pages, 104588 bytes).
+Output written on main.pdf (14 pages, 132651 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 174 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
+ 117 words of extra memory for PDF output out of 10000 (max. 10000000)
 
