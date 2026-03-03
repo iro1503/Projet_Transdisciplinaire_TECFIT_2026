@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.21)  3 MAR 2026 15:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.21)  3 MAR 2026 15:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -963,22 +963,20 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 4.
+)
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
 
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.32 ...er (prochain jalon)}{19}{subsection.2.6.5}
-                                                  % [1
+l.44 \include{Chapters/01_Intro/01_Intro}
+                                          [1
 
-])
-\tf@toc=\write5
-\openout5 = `main.toc'.
-
-
-
-[2]
+]
 \openout2 = `Chapters/01_Intro/01_Intro.aux'.
 
  (Chapters/01_Intro/01_Intro.tex)
@@ -988,7 +986,7 @@ l.32 ...er (prochain jalon)}{19}{subsection.2.6.5}
 Chapitre 1.
 )
 
-[3
+[2
 
 
 
@@ -1001,7 +999,7 @@ Chapitre 1.
 Chapitre 2.
 
 
-[4
+[3
 
 
 
@@ -1012,7 +1010,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 39
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-[5{C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+[4{C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
 Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
  []
@@ -1024,42 +1022,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--61
 
 
 
-[6]
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 63--76
 
  []
 
 
 
-[7]
+[6]
 
-[8]
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 108--115
 
  []
 
 
 
-[9]
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 133--135
 
  []
 
 
 
-[10]
+[9]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[11]
+[10]
 
-[12])
+[11])
 
-[13]
+[12]
 
-[14
+[13
 
 
 ]
@@ -1069,121 +1067,44 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 \openout2 = `Chapters/05_Logistique/05_Logistique.aux'.
 
  (Chapters/05_Logistique/05_Logistique.tex
-Underfull \hbox (badness 2913) in paragraph at lines 78--78
-[]|\T1/lmr/m/n/12 Fabrication élec-
- []
+Chapitre 3.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
-\T1/lmr/m/n/12 électronique--
- []
+[14
 
-
-Underfull \hbox (badness 5431) in paragraph at lines 87--88
-[]|\T1/lmr/m/n/12 Traitement des dos-siers four-nis-seurs/clients (fac-tures, ges-
- []
-
-
-Underfull \hbox (badness 1132) in paragraph at lines 87--88
-\T1/lmr/m/n/12 tion four-nis-seur, ges-tion client, comptes, R&D, RH, mar-ke-
- []
-
-
-
-[15
 
 
 
 
 ]
-
-[16{C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-[]|\T1/lmr/m/n/12 Fabrication élec-tro-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
-[]|\T1/lmr/m/n/12 Assemblage liner--
- []
-
-
-Overfull \hbox (29.18039pt too wide) in paragraph at lines 101--115
- [][] 
- []
-
-
-Overfull \hbox (4.58305pt too wide) in paragraph at lines 119--121
-\T1/lmr/m/n/12 tam-ment : si-li-cone, tex-tile/étiquette, élec-tro-nique, bat-te-rie, cap-teurs, car-tons, pa-pier bulles,
- []
-
-
-
-[17]
-Overfull \hbox (110.68948pt too wide) in alignment at lines 133--138
- [] [] [] [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--152
-[]|\T1/lmr/m/n/12 Salaire ges-tion-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
-[]|\T1/lmr/m/n/12 annuel (12
- []
-
-
-Overfull \hbox (110.68948pt too wide) in alignment at lines 138--159
- [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (21.33606pt too wide) in paragraph at lines 164--165
-[]\T1/lmr/m/n/12 Les coûts fixes in-tègrent une struc-ture RH avec |   [] et un rôle |   [],
- []
-
-
-Overfull \hbox (79.37914pt too wide) in paragraph at lines 164--165
-\T1/lmr/m/n/12 ce qui sert de base à une pre-mière ré-par-ti-tion des ac-ti-vi-tés (pro-duc-tion/contrôle/administratif/commerce). 
- []
-
-
-
-[18]
-
-[19]
-
-[20]
-Overfull \hbox (15.33769pt too wide) in paragraph at lines 218--219
+Overfull \hbox (15.33769pt too wide) in paragraph at lines 25--26
 []\T1/lmr/bx/n/12 Assemblage liner--électronique--prothèse \T1/lmr/m/n/12 : connexion élec-tro-nique/capteurs, adap-
  []
 
 
 
-[21])
+[15{C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}])
 
-[22] (main.aux (Chapters/01_Intro/01_Intro.aux) (Chapters/02_Marketing/02_Marketing.aux) (Chapters/03_Finance/03_Finance.aux) (Chapters/04_Technique/04_Technique.aux) (Chapters/05_Logistique/05_Logistique.aux))
+[16] (main.aux (Chapters/01_Intro/01_Intro.aux) (Chapters/02_Marketing/02_Marketing.aux) (Chapters/03_Finance/03_Finance.aux) (Chapters/04_Technique/04_Technique.aux) (Chapters/05_Logistique/05_Logistique.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9297EB964AB08ED652EA03662BB7A19C;7690.
+(rerunfilecheck)             Checksum: 929E4C3E3A5FE19E557049EA5E3F1749;4506.
  ) 
 Here is how much of TeX's memory you used:
- 34220 strings out of 473530
- 709939 string characters out of 5714794
- 1141545 words of memory out of 5000000
- 56775 multiletter control sequences out of 15000+600000
- 612166 words of font info for 70 fonts, out of 8000000 for 9000
+ 34165 strings out of 473530
+ 709099 string characters out of 5714794
+ 1127403 words of memory out of 5000000
+ 56747 multiletter control sequences out of 15000+600000
+ 609371 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 107i,10n,110p,1004b,1285s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
-Output written on main.pdf (23 pages, 201570 bytes).
+ 107i,9n,110p,1004b,1193s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
+Output written on main.pdf (17 pages, 155857 bytes).
 PDF statistics:
- 355 PDF objects out of 1000 (max. 8388607)
- 84 named destinations out of 1000 (max. 500000)
- 285 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 248 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 

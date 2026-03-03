@@ -1,39 +1,22 @@
 \babel@toc {french}{}\relax 
-\contentsline {chapter}{\numberline {1}Marketing}{3}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Finance}{4}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Analyse financière des ratios}{4}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Marge Nette sur vente}{4}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Taux de valeur ajoutée}{5}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Valeur ajoutée par personne occupée}{6}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Rentabilité nette des capitaux propre après impôt}{7}{subsection.2.1.4}%
-\contentsline {subsection}{\numberline {2.1.5}Cash-flow / Capitaux propres}{8}{subsection.2.1.5}%
-\contentsline {subsection}{\numberline {2.1.6}Liquidité au sens strict}{8}{subsection.2.1.6}%
-\contentsline {subsection}{\numberline {2.1.7}Nombre de jour de crédit client}{10}{subsection.2.1.7}%
-\contentsline {subsection}{\numberline {2.1.8}Nombre de jour de crédit fournisseur}{11}{subsection.2.1.8}%
-\contentsline {subsection}{\numberline {2.1.9}Solvabilité}{11}{subsection.2.1.9}%
-\contentsline {subsection}{\numberline {2.1.10}Part des frais de personnel dans la valeur ajoutée}{12}{subsection.2.1.10}%
-\contentsline {section}{\numberline {2.2}Contexte et objectif logistique}{15}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Méthodologie retenue : QQOQCP}{15}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Chaîne logistique : flux et étapes}{15}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Vue d'ensemble}{15}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Étapes opérationnelles (processus)}{16}{subsection.2.4.2}%
-\contentsline {section}{\numberline {2.5}Hypothèses et données de coût}{16}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Coûts variables (par unité produite)}{16}{subsection.2.5.1}%
-\contentsline {subsubsection}{\numberline {2.5.1.1}Synthèse des coûts variables par poste}{17}{subsubsection.2.5.1.1}%
-\contentsline {subsubsection}{\numberline {2.5.1.2}Exemples d'intrants identifiés (à consolider)}{17}{subsubsection.2.5.1.2}%
-\contentsline {subsection}{\numberline {2.5.2}Coûts fixes (structure)}{17}{subsection.2.5.2}%
-\contentsline {subsubsection}{\numberline {2.5.2.1}Principe}{17}{subsubsection.2.5.2.1}%
-\contentsline {subsubsection}{\numberline {2.5.2.2}Extrait de postes de coûts fixes (à ce stade)}{18}{subsubsection.2.5.2.2}%
-\contentsline {section}{\numberline {2.6}Organisation, localisation, temps et points ouverts}{19}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Qui ? (Rôles et responsabilités)}{19}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Où ? (Réseau et transport)}{19}{subsection.2.6.2}%
-\contentsline {subsection}{\numberline {2.6.3}Quand ? (Cadence et charge)}{19}{subsection.2.6.3}%
-\contentsline {subsection}{\numberline {2.6.4}Comment ? (Procédures, moyens, qualité)}{19}{subsection.2.6.4}%
-\contentsline {subsection}{\numberline {2.6.5}Points à valider (prochain jalon)}{19}{subsection.2.6.5}%
-\contentsline {section}{\numberline {2.7}Objectif du volet logistique}{20}{section.2.7}%
-\contentsline {section}{\numberline {2.8}Méthode utilisée : QQOQCP (structure IBE)}{20}{section.2.8}%
-\contentsline {section}{\numberline {2.9}Chaîne logistique imaginée (état actuel)}{20}{section.2.9}%
-\contentsline {section}{\numberline {2.10}Synthèse coûts (données actuelles)}{21}{section.2.10}%
-\contentsline {subsection}{\numberline {2.10.1}Coût variable unitaire (CV)}{21}{subsection.2.10.1}%
-\contentsline {subsection}{\numberline {2.10.2}Coûts fixes (CF) et structure}{21}{subsection.2.10.2}%
-\contentsline {section}{\numberline {2.11}Points ouverts et prochaines validations}{21}{section.2.11}%
+\contentsline {chapter}{\numberline {1}Marketing}{2}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Finance}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Analyse financière des ratios}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Marge Nette sur vente}{3}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Taux de valeur ajoutée}{4}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Valeur ajoutée par personne occupée}{5}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Rentabilité nette des capitaux propre après impôt}{6}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Cash-flow / Capitaux propres}{7}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.6}Liquidité au sens strict}{7}{subsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.1.7}Nombre de jour de crédit client}{9}{subsection.2.1.7}%
+\contentsline {subsection}{\numberline {2.1.8}Nombre de jour de crédit fournisseur}{10}{subsection.2.1.8}%
+\contentsline {subsection}{\numberline {2.1.9}Solvabilité}{10}{subsection.2.1.9}%
+\contentsline {subsection}{\numberline {2.1.10}Part des frais de personnel dans la valeur ajoutée}{11}{subsection.2.1.10}%
+\contentsline {chapter}{\numberline {3}Logistique}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Objectif du volet logistique}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Méthode utilisée : QQOQCP (structure IBE)}{14}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Chaîne logistique imaginée (état actuel)}{14}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Synthèse coûts (données actuelles)}{15}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Coût variable unitaire (CV)}{15}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Coûts fixes (CF) et structure}{15}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}Points ouverts et prochaines validations}{16}{section.3.5}%
