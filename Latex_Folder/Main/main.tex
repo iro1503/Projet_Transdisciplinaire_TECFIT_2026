@@ -23,7 +23,7 @@
 \begin{document}
 % Début du contenu visible du document.
 % Tout ce qui est avant = préambule (configuration), tout ce qui est après = contenu.
-
+\pagenumbering{gobble} % Désactive la numérotation des pages
 % ---------- Pages de début (exemples) ----------
 \title{Titre du rapport}
 % Définit le titre (utilisé par \maketitle).
@@ -33,13 +33,16 @@
 
 \date{\today}
 % Définit la date (ici: date du jour). Peut être vide: \date{}.
-
+\pagenumbering{gobble} % Désactive la numérotation des pages
 \maketitle
 % Génère la page de titre à partir de \title, \author, \date.
-
+\pagenumbering{gobble} % Désactive la numérotation des pages
 \tableofcontents
-% Génère la table des matières (sommaire).
 
+% Génère la table des matières (sommaire).
+%Numérotation de page 
+\pagenumbering{arabic}
+\setcounter{page}{1}
 % ---------- Chapitres ----------
 \include{Chapters/01_Intro/01_Intro}
 % \include insère un “gros bloc” (souvent un chapitre).

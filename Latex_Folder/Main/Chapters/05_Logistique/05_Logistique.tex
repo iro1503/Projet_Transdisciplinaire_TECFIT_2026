@@ -18,9 +18,9 @@ La logistique est structurée selon la méthode QQOQCP :
 À ce stade, la chaîne logistique est décrite en postes (macro-étapes) qui couvrent l'ensemble du flux :
 \begin{enumerate}
   \item \textbf{Commande} des intrants et consommables : silicone, textile/étiquette, électronique, batterie, capteurs, emballages (cartons, papier bulle), cupule et consommables (cartouche encre), ainsi que la réception de commande client.
-  \item \textbf{Inventaire avant} : réception et mise en stock des intrants fournisseurs (approvisionnement).
-  \item \textbf{Préparation} : découpe/préparation des matériaux + préparation capteurs/cupule si nécessaire.
-  \item \textbf{Fabrication liner} : moulage 1, séchage 1, pose réseau capteur, moulage 2, séchage 2, contrôles qualité, mise en place cupule, opérations d’impression si applicable.
+  \item \textbf{Inventaire à la réception} : réception et mise en stock des intrants fournisseurs (approvisionnement) et des données clients (commandes, informations de contact, informations sur la prothèse, les dimensions et la postion suggérée des capteurs).
+  \item \textbf{Préparation} : préparation des matériaux + préparation capteurs/cupule
+  \item \textbf{Fabrication liner} : moulage 1, séchage 1, pose réseau capteur, moulage 2, séchage 2, contrôles qualité, mise en place cupule, impression numéro de série.
   \item \textbf{Fabrication électronique} : préparation/fabrication de la partie électronique + contrôle qualité.
   \item \textbf{Assemblage liner--électronique--prothèse} : connexion électronique/capteurs, adaptation prothèse si nécessaire, contrôle qualité final.
   \item \textbf{Expédition} : emballage (carton + papier bulle) et préparation d’envoi.
@@ -33,9 +33,63 @@ La logistique est structurée selon la méthode QQOQCP :
 Le fichier de calcul indique un \textbf{CV total} de \SI{298.68}{\euro} par unité produite (valeur actuelle de travail) pour la composante « matériaux/consommables » au poste \emph{Commande}.\\
 Le modèle intègre aussi des temps opérateur par poste (préparation, fabrication, assemblage, expédition, inventaires), utilisés pour estimer la main d'œuvre variable.
 
+
+
+
+
+\begin{table}[h!]
+\centering
+\small
+\begin{tabular}{p{3.5cm} S[table-format=3.2] S[table-format=3.2] p{4.5cm}}
+\toprule
+\textbf{Poste} & {\textbf{CV matériaux}} & {\textbf{MO opérateur}} & \textbf{Commentaire}\\
+\midrule
+Commande & 298.68 & 87.75 & Seul poste où les matériaux + MO sont comptés.\\
+Inventaire avant & 0.00 & 87.75 & Uniquement MO.\\
+Préparation & 0.00 & 81.25 & Uniquement MO.\\
+Fabrication liner & 0.00 & 146.25 & Uniquement MO.\\
+Fabrication électronique & 0.00 & 13.00 & Uniquement MO.\\
+Assemblage liner--électronique--prothèse & 0.00 & 74.75 & Uniquement MO.\\
+Expédition & 0.00 & 6.50 & Uniquement MO.\\
+Inventaire après & 0.00 & 48.75 & Uniquement MO.\\
+\bottomrule
+\end{tabular}
+\caption{Coûts variables --- synthèse par poste (valeurs intermédiaires).}
+\label{tab:couts_variables_poste}
+\end{table}
+
 \subsection{Coûts fixes (CF) et structure}
 Les coûts fixes listés comprennent : loyer, moules, équipements (ex. dégazage, étuve, extraction, métrologie), mobilier, services (comptable, assurances, leasing) et salaires.\\
 Le tableau de synthèse des CF met en évidence :
+
+\begin{longtable}{p{5.2cm} S[table-format=6.2] S[table-format=4.0] p{2.6cm}}
+\toprule
+\textbf{Nom} & {\textbf{Coût unitaire}} & {\textbf{Qté}} & \textbf{Périodicité}\\
+\midrule
+\endhead
+Loyer bâtiment & 4000.00 & 1 & mensuel\\
+Moule positif petit & 1500.00 & 11 & 60 mois\\
+Moule négatif & 1500.00 & 11 & 60 mois\\
+Moule positif grand & 1500.00 & 11 & 60 mois\\
+Machine pour écrire le code UDI & 5000.00 & 1 & 60 mois\\
+Outillage en tout genre & 12500.00 & 1 & 60 mois\\
+Balance & 420.00 & 1 & 60 mois\\
+Chambre vide (dégazage) & 1000.00 & 1 & 60 mois\\
+Étuve & 1890.00 & 1 & 60 mois\\
+Duromètre & 121.00 & 3 & 60 mois\\
+Extracteur & 3000.00 & 1 & 60 mois\\
+Mobilier + accessoires & 4900.00 & 1 & 60 mois\\
+Salaire moyen ouvrier & 9056.85 & 2 & mensuel\\
+Salaire gestionnaire/commercial & 10703.55 & 1 & mensuel\\
+Comptable & 3600.00 & 1 & annuel (12 mois)\\
+Leasing & 800.00 & 1 & mensuel\\
+Assurance incendie & 300.00 & 1 & mensuel\\
+Assurance exploitation & 300.00 & 1 & mensuel\\
+\bottomrule
+\caption{Extrait de coûts fixes (valeurs de travail, à valider et documenter).}
+\end{longtable}
+
+
 \begin{itemize}
   \item un \textbf{coût de démarrage} (investissement / mois initial) : \SI{116390.25}{\euro},
   \item un \textbf{niveau mensuel récurrent} : \SI{34217.25}{\euro} (avec une variation à \SI{37817.25}{\euro} sur certains mois dans la table).
