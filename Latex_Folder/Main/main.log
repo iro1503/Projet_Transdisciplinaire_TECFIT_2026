@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.21)  2 MAR 2026 22:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.21)  3 MAR 2026 15:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -762,11 +762,78 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )) (C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex/latex/eurosym\eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box90
+) (C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
+\LTleft=\skip66
+\LTright=\skip67
+\LTpre=\skip68
+\LTpost=\skip69
+\LTchunksize=\count361
+\LTcapwidth=\dimen337
+\LT@head=\box91
+\LT@firsthead=\box92
+\LT@foot=\box93
+\LT@lastfoot=\box94
+\LT@gbox=\box95
+\LT@cols=\count362
+\LT@rows=\count363
+\c@LT@tables=\count364
+\c@LT@chunks=\count365
+\LT@p@ftn=\toks54
+) (C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count366
+\l__siunitx_number_exponent_fixed_int=\count367
+\l__siunitx_number_min_decimal_int=\count368
+\l__siunitx_number_min_integer_int=\count369
+\l__siunitx_number_round_precision_int=\count370
+\l__siunitx_number_lower_threshold_int=\count371
+\l__siunitx_number_upper_threshold_int=\count372
+\l__siunitx_number_group_first_int=\count373
+\l__siunitx_number_group_size_int=\count374
+\l__siunitx_number_group_minimum_int=\count375
+\l__siunitx_angle_tmp_dim=\dimen338
+\l__siunitx_angle_marker_box=\box96
+\l__siunitx_angle_unit_box=\box97
+\l__siunitx_compound_count_int=\count376
+ (C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+)
+\l__siunitx_table_tmp_box=\box98
+\l__siunitx_table_tmp_dim=\dimen339
+\l__siunitx_table_column_width_dim=\dimen340
+\l__siunitx_table_integer_box=\box99
+\l__siunitx_table_decimal_box=\box100
+\l__siunitx_table_uncert_box=\box101
+\l__siunitx_table_before_box=\box102
+\l__siunitx_table_after_box=\box103
+\l__siunitx_table_before_dim=\dimen341
+\l__siunitx_table_carry_dim=\dimen342
+\l__siunitx_unit_tmp_int=\count377
+\l__siunitx_unit_position_int=\count378
+\l__siunitx_unit_total_int=\count379
+) (C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+\f@nch@headwidth=\skip70
+\f@nch@offset@elh=\skip71
+\f@nch@offset@erh=\skip72
+\f@nch@offset@olh=\skip73
+\f@nch@offset@orh=\skip74
+\f@nch@offset@elf=\skip75
+\f@nch@offset@erf=\skip76
+\f@nch@offset@olf=\skip77
+\f@nch@offset@orf=\skip78
+\f@nch@height=\skip79
+\f@nch@footalignment=\skip80
+\f@nch@widthL=\skip81
+\f@nch@widthC=\skip82
+\f@nch@widthR=\skip83
+\@temptokenb=\toks55
 ))
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 23.
  (C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (main.aux (Chapters/01_Intro/01_Intro.aux) (Chapters/02_Marketing/02_Marketing.aux) (Chapters/03_Finance/03_Finance.aux) (Chapters/04_Technique/04_Technique.aux))
+) (main.aux (Chapters/01_Intro/01_Intro.aux) (Chapters/02_Marketing/02_Marketing.aux) (Chapters/03_Finance/03_Finance.aux) (Chapters/04_Technique/04_Technique.aux) (Chapters/05_Logistique/05_Logistique.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -789,17 +856,17 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
  (C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count361
-\scratchdimen=\dimen337
-\scratchbox=\box91
-\nofMPsegments=\count362
-\nofMParguments=\count363
-\everyMPshowfont=\toks54
-\MPscratchCnt=\count364
-\MPscratchDim=\dimen338
-\MPnumerator=\count365
-\makeMPintoPDFobject=\count366
-\everyMPtoPDFconversion=\toks55
+\scratchcounter=\count380
+\scratchdimen=\dimen343
+\scratchbox=\box104
+\nofMPsegments=\count381
+\nofMParguments=\count382
+\everyMPshowfont=\toks56
+\MPscratchCnt=\count383
+\MPscratchDim=\dimen344
+\MPnumerator=\count384
+\makeMPintoPDFobject=\count385
+\everyMPtoPDFconversion=\toks57
 ) (C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -854,7 +921,15 @@ Package hyperref Info: Link coloring OFF on input line 23.
 \openout4 = `main.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: longtable package is loaded.
+ (C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
 Package caption Info: End \AtBeginDocument code.
+ (C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-french.trsl
+File: translations-basic-dictionary-french.trsl (french translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `french'. on input line 23.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 39.
  (C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -888,20 +963,22 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 4.
-)
-\tf@toc=\write5
-\openout5 = `main.toc'.
-
 
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.44 \include{Chapters/01_Intro/01_Intro}
-                                          [1
+l.32 ...er (prochain jalon)}{19}{subsection.2.6.5}
+                                                  % [1
 
-]
+])
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+
+
+[2]
 \openout2 = `Chapters/01_Intro/01_Intro.aux'.
 
  (Chapters/01_Intro/01_Intro.tex)
@@ -911,7 +988,7 @@ l.44 \include{Chapters/01_Intro/01_Intro}
 Chapitre 1.
 )
 
-[2
+[3
 
 
 
@@ -924,7 +1001,7 @@ Chapitre 1.
 Chapitre 2.
 
 
-[3
+[4
 
 
 
@@ -935,7 +1012,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 39
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-[4{C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+[5{C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
 Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
  []
@@ -947,67 +1024,166 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--61
 
 
 
-[5]
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 63--76
 
  []
 
 
 
-[6]
-
 [7]
+
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 108--115
 
  []
 
 
 
-[8]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 133--135
 
  []
 
 
 
-[9]
+[10]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[10]
+[11]
 
-[11])
+[12])
 
-[12]
+[13]
 
-[13
+[14
 
 
 ]
 \openout2 = `Chapters/04_Technique/04_Technique.aux'.
 
- (Chapters/04_Technique/04_Technique.tex) (main.aux (Chapters/01_Intro/01_Intro.aux) (Chapters/02_Marketing/02_Marketing.aux) (Chapters/03_Finance/03_Finance.aux) (Chapters/04_Technique/04_Technique.aux))
+ (Chapters/04_Technique/04_Technique.tex)
+\openout2 = `Chapters/05_Logistique/05_Logistique.aux'.
+
+ (Chapters/05_Logistique/05_Logistique.tex
+Underfull \hbox (badness 2913) in paragraph at lines 78--78
+[]|\T1/lmr/m/n/12 Fabrication élec-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+\T1/lmr/m/n/12 électronique--
+ []
+
+
+Underfull \hbox (badness 5431) in paragraph at lines 87--88
+[]|\T1/lmr/m/n/12 Traitement des dos-siers four-nis-seurs/clients (fac-tures, ges-
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 87--88
+\T1/lmr/m/n/12 tion four-nis-seur, ges-tion client, comptes, R&D, RH, mar-ke-
+ []
+
+
+
+[15
+
+
+
+
+]
+
+[16{C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
+[]|\T1/lmr/m/n/12 Fabrication élec-tro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
+[]|\T1/lmr/m/n/12 Assemblage liner--
+ []
+
+
+Overfull \hbox (29.18039pt too wide) in paragraph at lines 101--115
+ [][] 
+ []
+
+
+Overfull \hbox (4.58305pt too wide) in paragraph at lines 119--121
+\T1/lmr/m/n/12 tam-ment : si-li-cone, tex-tile/étiquette, élec-tro-nique, bat-te-rie, cap-teurs, car-tons, pa-pier bulles,
+ []
+
+
+
+[17]
+Overfull \hbox (110.68948pt too wide) in alignment at lines 133--138
+ [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+[]|\T1/lmr/m/n/12 Salaire ges-tion-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+[]|\T1/lmr/m/n/12 annuel (12
+ []
+
+
+Overfull \hbox (110.68948pt too wide) in alignment at lines 138--159
+ [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (21.33606pt too wide) in paragraph at lines 164--165
+[]\T1/lmr/m/n/12 Les coûts fixes in-tègrent une struc-ture RH avec |   [] et un rôle |   [],
+ []
+
+
+Overfull \hbox (79.37914pt too wide) in paragraph at lines 164--165
+\T1/lmr/m/n/12 ce qui sert de base à une pre-mière ré-par-ti-tion des ac-ti-vi-tés (pro-duc-tion/contrôle/administratif/commerce). 
+ []
+
+
+
+[18]
+
+[19]
+
+[20]
+Overfull \hbox (15.33769pt too wide) in paragraph at lines 218--219
+[]\T1/lmr/bx/n/12 Assemblage liner--électronique--prothèse \T1/lmr/m/n/12 : connexion élec-tro-nique/capteurs, adap-
+ []
+
+
+
+[21])
+
+[22] (main.aux (Chapters/01_Intro/01_Intro.aux) (Chapters/02_Marketing/02_Marketing.aux) (Chapters/03_Finance/03_Finance.aux) (Chapters/04_Technique/04_Technique.aux) (Chapters/05_Logistique/05_Logistique.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C5AB7A9D32D1A05130F10B5F5CEFECC8;2680.
+(rerunfilecheck)             Checksum: 9297EB964AB08ED652EA03662BB7A19C;7690.
  ) 
 Here is how much of TeX's memory you used:
- 29792 strings out of 473530
- 577716 string characters out of 5714794
- 1038535 words of memory out of 5000000
- 52428 multiletter control sequences out of 15000+600000
- 609254 words of font info for 68 fonts, out of 8000000 for 9000
+ 34220 strings out of 473530
+ 709939 string characters out of 5714794
+ 1141545 words of memory out of 5000000
+ 56775 multiletter control sequences out of 15000+600000
+ 612166 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 107i,9n,110p,1004b,479s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
-Output written on main.pdf (14 pages, 132651 bytes).
+ 107i,10n,110p,1004b,1285s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/vlieg/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
+Output written on main.pdf (23 pages, 201570 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 500000)
- 117 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 355 PDF objects out of 1000 (max. 8388607)
+ 84 named destinations out of 1000 (max. 500000)
+ 285 words of extra memory for PDF output out of 10000 (max. 10000000)
 
