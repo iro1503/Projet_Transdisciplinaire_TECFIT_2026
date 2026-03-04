@@ -322,6 +322,10 @@ INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex\latex\translations\transl
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex\latex\translations\translations.sty
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmr.fd
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmr.fd
@@ -469,12 +473,12 @@ OUTPUT Chapters\05_Logistique\05_Logistique.aux
 INPUT .\Chapters\05_Logistique\05_Logistique.tex
 INPUT .\Chapters\05_Logistique\05_Logistique.tex
 INPUT Chapters\05_Logistique\05_Logistique.tex
-INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\eurosym\feymr10.tfm
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr10.tfm
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr10.tfm
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi10.tfm
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx10.tfm
+INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\eurosym\feymr10.tfm
 INPUT main.aux
 INPUT .\Chapters\01_Intro\01_Intro.aux
 INPUT .\Chapters\01_Intro\01_Intro.aux
@@ -493,6 +497,8 @@ INPUT .\Chapters\05_Logistique\05_Logistique.aux
 INPUT Chapters\05_Logistique\05_Logistique.aux
 INPUT .\main.out
 INPUT .\main.out
+INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\type1\public\eurosym\feymr10.pfb
+INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\type1\public\eurosym\feymr10.pfb
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx10.pfb
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx10.pfb
 INPUT C:\Users\vlieg\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx12.pfb

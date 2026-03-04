@@ -28,23 +28,14 @@ La logistique est structurée selon la méthode QQOQCP :
   \item \textbf{Administratif} : gestion fournisseurs/clients (factures, suivi dossiers), et fonctions support (R\&D, RH, marketing/démarchage).
 \end{enumerate}
 
-\section{Synthèse coûts (données actuelles)}
-\subsection{Coût variable unitaire (CV)}
-Le fichier de calcul indique un \textbf{CV total} de \SI{298.68}{\euro} par unité produite (valeur actuelle de travail) pour la composante « matériaux/consommables » au poste \emph{Commande}.\\
-Le modèle intègre aussi des temps opérateur par poste (préparation, fabrication, assemblage, expédition, inventaires), utilisés pour estimer la main d'œuvre variable.
-
-
-
-
-
-\begin{table}[h!]
+\begin{table}[H]
 \centering
 \small
 \begin{tabular}{p{3.5cm} S[table-format=3.2] S[table-format=3.2] p{4.5cm}}
 \toprule
 \textbf{Poste} & {\textbf{CV matériaux}} & {\textbf{MO opérateur}} & \textbf{Commentaire}\\
 \midrule
-Commande & 298.68 & 87.75 & Seul poste où les matériaux + MO sont comptés.\\
+Commande & 298.68 & 87.75 & Seul poste où les matériaux sont comptés\\
 Inventaire avant & 0.00 & 87.75 & Uniquement MO.\\
 Préparation & 0.00 & 81.25 & Uniquement MO.\\
 Fabrication liner & 0.00 & 146.25 & Uniquement MO.\\
@@ -57,6 +48,47 @@ Inventaire après & 0.00 & 48.75 & Uniquement MO.\\
 \caption{Coûts variables --- synthèse par poste (valeurs intermédiaires).}
 \label{tab:couts_variables_poste}
 \end{table}
+
+
+
+\section{Synthèse coûts (données actuelles)}
+\subsection{Coût variable unitaire (CV)}
+Le fichier de calcul indique un CV total de 298.68{\euro} par unité produite (valeur actuelle de travail) pour la composante « matériaux/consommables » au poste commande.\\
+Le modèle intègre aussi des temps opérateur par poste (préparation, fabrication, assemblage, expédition, inventaires), utilisés pour estimer la main d'œuvre variable.
+
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.05} % ajustement de l'espacement vertical
+\setlength{\tabcolsep}{7pt}
+\begin{tabularx}{\textwidth}{|p{3.2cm}|p{3.2cm}|p{2.6cm}|X|}
+\hline
+\textbf{Composant} & \textbf{Quantité/Liner} & \textbf{Coût Unitaire} & \textbf{Source/Commentaire} \\
+\hline
+Silicone & 360g (2x180g) & 10\texteuro/g & Matière contituant le liner \\
+\hline
+Textile + étiquette & 1 pièce & 25\texteuro/pcs & Chaussettes techniques personnalisées \\
+\hline
+Électronique & 1 pièce & 200\texteuro/pcs & Carte de contrôle STM  \\
+\hline
+% Batterie & 1 pièce & 10\texteuro/pcs & Batterie rechargeable pour alimentation du système \\
+% \hline
+% Capteurs & 15 pièces & 10\texteuro/pcs & Réseau de capteurs de pression intégrés \\
+% \hline
+Cupule & 1 pièce & 30\texteuro/pcs & Point d'encrage avec la prothèse \\
+\hline
+Carton d'emballage & 1 pièce & 10\texteuro/pcs & Emballage de protection pour expédition \\
+\hline
+Papier bulle & 2 pièces & 10\texteuro/pcs & Protection liner et prothèse séparément \\
+\hline
+Matérielle de marcage & 1 pièce & 200\texteuro/pcs & Impression code UDI (usage infime par liner) \\
+\hline
+\end{tabularx}
+\caption{Nomenclature des composants et hypothèses de coûts (version intermédiaire).}
+\label{tab:composants-couts}
+\end{table}
+
+\newpage
 
 \subsection{Coûts fixes (CF) et structure}
 Les coûts fixes listés comprennent : loyer, moules, équipements (ex. dégazage, étuve, extraction, métrologie), mobilier, services (comptable, assurances, leasing) et salaires.\\
@@ -96,10 +128,10 @@ Assurance exploitation & 300.00 & 1 & mensuel\\
 \end{itemize}
 
 \section{Points ouverts et prochaines validations}
-Les données sont encore marquées « non acquis » sur plusieurs lignes (prix fournisseurs, quantités, pertes, temps exacts), ce qui implique une phase de consolidation.
+Plusieurs données sont encore non acquises sur plusieurs lignes (prix fournisseurs, quantités, pertes, temps exacts), ce qui implique une phase de consolidation.
 Les priorités de validation logistique sont :
 \begin{itemize}
-  \item \textbf{Approvisionnement} : sélection des fournisseurs, prix réels, quantités mensuelles, délais.
+  \item \textbf{Approvisionnement} : délais.
   \item \textbf{Gamme opératoire} : stabiliser les temps (opérateur/machine), identifier les goulots (séchage, QC, assemblage).
   \item \textbf{Qualité \& traçabilité} : formaliser contrôles, critères d’acceptation, documentation.
   \item \textbf{Distribution \& SAV} : définir le circuit (livraison, retours, support), souvent sous-estimé dans les rapports.
