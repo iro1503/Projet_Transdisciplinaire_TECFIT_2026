@@ -1,143 +1,549 @@
-\chapter{Logistique}
-\section{Objectif du volet logistique}
-L'objectif de ce volet est de décrire comment le projet fonctionne concrètement dans le temps et dans l'espace : flux de matières, opérations, ressources, stockage, distribution et activités administratives.
-L'approche vise à passer d'une simple description du produit à une vision « chaîne de valeur / business », afin d'anticiper la faisabilité opérationnelle et d'estimer un coût de revient.
+% \chapter{Logistique}
+% \section{Objectif du volet logistique}
+% L'objectif de ce volet est de décrire comment le projet fonctionne concrètement dans le temps et dans l'espace : flux de matières, opérations, ressources, stockage, distribution et activités administratives.
+% L'approche vise à passer d'une simple description du produit à une vision « chaîne de valeur / business », afin d'anticiper la faisabilité opérationnelle et d'estimer un coût de revient.
 
-\section{Méthode utilisée : QQOQCP (structure IBE)}
-La logistique est structurée selon la méthode QQOQCP :
+% \section{Méthode utilisée : QQOQCP (structure IBE)}
+% La logistique est structurée selon la méthode QQOQCP :
+% \begin{itemize}
+%   \item \textbf{Quoi ?} opérations et processus (inspiration BPMN : séquencement des tâches).
+%   \item \textbf{Qui ?} acteurs internes/externes, responsabilités, ressources humaines.
+%   \item \textbf{Où ?} lieux, partenaires, transports amont/aval.
+%   \item \textbf{Quand ?} durées et fréquences, logique de planning et gestion de commande.
+%   \item \textbf{Comment ?} moyens, procédures, nomenclature, gamme opératoire, qualité, emballage, déchets.
+%   \item \textbf{Pourquoi ?} calcul du coût de revient, rationalisation, création de valeur client.
+% \end{itemize}
+
+
+% \section{Chaîne logistique imaginée (état actuel)}
+% À ce stade, la chaîne logistique est décrite en postes (macro-étapes) qui couvrent l'ensemble du flux :
+% \begin{enumerate}
+%   \item \textbf{Commande} des intrants et consommables : silicone, textile/étiquette, électronique, batterie, capteurs, emballages (cartons, papier bulle), cupule et consommables (cartouche encre), ainsi que la réception de commande client.
+%   \item \textbf{Inventaire à la réception} : réception et mise en stock des intrants fournisseurs (approvisionnement) et des données clients (commandes, informations de contact, informations sur la prothèse, les dimensions et la postion suggérée des capteurs).
+%   \item \textbf{Préparation} : préparation des matériaux + préparation capteurs/cupule
+%   \item \textbf{Fabrication liner} : moulage 1, séchage 1, pose réseau capteur, moulage 2, séchage 2, contrôles qualité, mise en place cupule, impression numéro de série.
+%   \item \textbf{Fabrication électronique} : préparation/fabrication de la partie électronique + contrôle qualité.
+%   \item \textbf{Assemblage liner--électronique--prothèse} : connexion électronique/capteurs, adaptation prothèse si nécessaire, contrôle qualité final.
+%   \item \textbf{Expédition} : emballage (carton + papier bulle) et préparation d’envoi.
+%   \item \textbf{Inventaire après} : mise en stock du produit fini (liner et éléments associés), suivi de paramètres (durée de vie/outillage).
+%   \item \textbf{Administratif} : gestion fournisseurs/clients (factures, suivi dossiers), et fonctions support (R\&D, RH, marketing/démarchage).
+% \end{enumerate}
+
+% \begin{table}[H]
+% \centering
+% \small
+% \begin{tabular}{p{3.5cm} S[table-format=3.2] S[table-format=3.2]}
+% \toprule
+% \textbf{Poste} & {\textbf{CV matériaux}} & {\textbf{MO opérateur}}\\
+% \midrule
+% Commande & 298.68 & 87.75\\
+% Inventaire avant & 0.00 & 87.75\\
+% Préparation & 0.00 & 81.25\\
+% Fabrication liner & 0.00 & 146.25\\
+% Fabrication électronique & 0.00 & 13.00\\
+% Assemblage liner--électronique--prothèse & 0.00 & 74.75\\
+% Expédition & 0.00 & 6.50\\
+% Inventaire après & 0.00 & 48.75\\
+% \bottomrule
+% \end{tabular}
+% \caption{Coûts variables --- synthèse par poste (valeurs intermédiaires).}
+% \label{tab:couts_variables_poste}
+% \end{table}
+
+
+
+% \section{Synthèse coûts (données actuelles)}
+% \subsection{Coût variable unitaire (CV)}
+% Le fichier de calcul indique un CV total de 298.68{\euro} par unité produite (valeur actuelle de travail) pour la composante « matériaux/consommables » au poste commande.\\
+% Le modèle intègre aussi des temps opérateur par poste (préparation, fabrication, assemblage, expédition, inventaires), utilisés pour estimer la main d'œuvre variable.
+
+
+% \begin{table}[H]
+% \centering
+% \renewcommand{\arraystretch}{1.05} % ajustement de l'espacement vertical
+% \setlength{\tabcolsep}{7pt}
+% \begin{tabularx}{\textwidth}{|p{3.2cm}|p{3.2cm}|p{2.6cm}|X|}
+% \hline
+% \textbf{Composant} & \textbf{Quantité/Liner} & \textbf{Coût Unitaire} & \textbf{Source/Commentaire} \\
+% \hline
+% Silicone & 360g (2x180g) & 10\texteuro/g & Matière contituant le liner \\
+% \hline
+% Textile + étiquette & 1 pièce & 25\texteuro/pcs & Chaussettes techniques personnalisées \\
+% \hline
+% Électronique & 1 pièce & 200\texteuro/pcs & Carte de contrôle STM  \\
+% \hline
+% % Batterie & 1 pièce & 10\texteuro/pcs & Batterie rechargeable pour alimentation du système \\
+% % \hline
+% % Capteurs & 15 pièces & 10\texteuro/pcs & Réseau de capteurs de pression intégrés \\
+% % \hline
+% Cupule & 1 pièce & 30\texteuro/pcs & Point d'encrage avec la prothèse \\
+% \hline
+% Carton d'emballage & 1 pièce & 10\texteuro/pcs & Emballage de protection pour expédition \\
+% \hline
+% Papier bulle & 2 pièces & 10\texteuro/pcs & Protection liner et prothèse séparément \\
+% \hline
+% Matérielle de marcage & 1 pièce & 200\texteuro/pcs & Impression code UDI (usage infime par liner) \\
+% \hline
+% \end{tabularx}
+% \caption{Nomenclature des composants et hypothèses de coûts (version intermédiaire).}
+% \label{tab:composants-couts}
+% \end{table}
+
+% \newpage
+
+% \subsection{Coûts fixes (CF) et structure}
+% Les coûts fixes listés comprennent : loyer, moules, équipements (ex. dégazage, étuve, extraction, métrologie), mobilier, services (comptable, assurances, leasing) et salaires.\\
+% Le tableau de synthèse des CF met en évidence :
+
+% \begin{longtable}{p{5.2cm} S[table-format=6.2] S[table-format=4.0] p{2.6cm}}
+% \toprule
+% \textbf{Nom} & {\textbf{Coût unitaire}} & {\textbf{Qté}} & \textbf{Périodicité}\\
+% \midrule
+% \endhead
+% Loyer bâtiment & 4000.00 & 1 & mensuel\\
+% Moule positif petit & 1500.00 & 11 & 60 mois\\
+% Moule négatif & 1500.00 & 11 & 60 mois\\
+% Moule positif grand & 1500.00 & 11 & 60 mois\\
+% Machine pour écrire le code UDI & 5000.00 & 1 & 60 mois\\
+% Outillage en tout genre & 12500.00 & 1 & 60 mois\\
+% Balance & 420.00 & 1 & 60 mois\\
+% Chambre vide (dégazage) & 1000.00 & 1 & 60 mois\\
+% Étuve & 1890.00 & 1 & 60 mois\\
+% Duromètre & 121.00 & 3 & 60 mois\\
+% Extracteur & 3000.00 & 1 & 60 mois\\
+% Mobilier + accessoires & 4900.00 & 1 & 60 mois\\
+% Salaire moyen ouvrier & 9056.85 & 2 & mensuel\\
+% Salaire gestionnaire/commercial & 10703.55 & 1 & mensuel\\
+% Comptable & 3600.00 & 1 & annuel (12 mois)\\
+% Leasing & 800.00 & 1 & mensuel\\
+% Assurance incendie & 300.00 & 1 & mensuel\\
+% Assurance exploitation & 300.00 & 1 & mensuel\\
+% \bottomrule
+% \caption{Extrait de coûts fixes (valeurs de travail, à valider et documenter).}
+% \end{longtable}
+
+
+% \begin{itemize}
+%   \item un \textbf{coût de démarrage} (investissement / mois initial) : \SI{116390.25}{\euro},
+%   \item un \textbf{niveau mensuel récurrent} : \SI{34217.25}{\euro} (avec une variation à \SI{37817.25}{\euro} sur certains mois dans la table).
+% \end{itemize}
+
+% \section{Points ouverts et prochaines validations}
+% Plusieurs données sont encore non acquises sur plusieurs lignes (prix fournisseurs, quantités, pertes, temps exacts), ce qui implique une phase de consolidation.
+% Les priorités de validation logistique sont :
+% \begin{itemize}
+%   \item \textbf{Approvisionnement} : délais.
+%   \item \textbf{Gamme opératoire} : stabiliser les temps (opérateur/machine), identifier les goulots (séchage, QC, assemblage).
+%   \item \textbf{Qualité \& traçabilité} : formaliser contrôles, critères d’acceptation, documentation.
+%   \item \textbf{Distribution \& SAV} : définir le circuit (livraison, retours, support), souvent sous-estimé dans les rapports.
+%   \item \textbf{Cohérence finance--capacité} : relier volumes, capacité atelier, coûts fixes et coût unitaire.
+% \end{itemize}
+
+
+\chapter{Logistique}
+
+
+% % Couleurs
+% \definecolor{tecfitblue}{RGB}{0,70,130}
+% \definecolor{lightgray}{RGB}{245,245,245}
+% \definecolor{midgray}{RGB}{180,180,180}
+
+% % Titres
+% \titleformat{\section}{\large\bfseries\color{tecfitblue}}{}{0em}{\thesection.\quad}[\vspace{-0.3em}\rule{\linewidth}{0.5pt}]
+% \titleformat{\subsection}{\normalsize\bfseries\color{tecfitblue}}{}{0em}{\thesubsection\quad}
+% \titlespacing*{\section}{0pt}{1.5em}{0.8em}
+% \titlespacing*{\subsection}{0pt}{1em}{0.4em}
+
+% % En-tête et pied de page
+% \pagestyle{fancy}
+% \fancyhf{}
+% \fancyhead[L]{\small\textcolor{tecfitblue}{\textbf{Rapport Logistique --- Liner Prothétique Adaptatif}}}
+% \fancyhead[R]{\small\textcolor{midgray}{Projet Tecfit --- IBE 2025-2026}}
+% \fancyfoot[C]{\small\thepage}
+% \renewcommand{\headrulewidth}{0.4pt}
+% \renewcommand{\footrulewidth}{0.4pt}
+
+% % Hyperlinks
+% \hypersetup{
+%   colorlinks=true,
+%   linkcolor=tecfitblue,
+%   urlcolor=tecfitblue,
+%   pdftitle={Rapport Logistique Tecfit},
+%   pdfauthor={Projet IBE}
+% }
+
+
+
+%% ===== PAGE DE TITRE =====
+% \begin{titlepage}
+%   \centering
+%   \vspace*{2cm}
+%   {\Huge\bfseries\color{tecfitblue} Rapport de Logistique\par}
+%   \vspace{0.5cm}
+%   {\Large\color{midgray}\rule{10cm}{1pt}\par}
+%   \vspace{0.5cm}
+%   {\large Liner Prothétique Adaptatif\par}
+%   \vspace{0.3cm}
+%   {\normalsize Nouvelle entreprise issue du projet universitaire Tecfit\par}
+%   \vspace{2cm}
+%   \begin{tabular}{rl}
+%     \textbf{Projet :} & Transdisciplinaire IBE 2025--2026 \\[4pt]
+%     \textbf{Partenaire industriel :} & Tecfit SRL \\[4pt]
+%     \textbf{Cadre financier :} & Cas D --- Nouvelle entreprise \\[4pt]
+%     \textbf{Date :} & Avril 2026 \\[4pt]
+%     \textbf{Méthode logistique :} & QQOQCP + BPMN \\
+%   \end{tabular}
+%   \vspace{3cm}
+%   \begin{center}
+%     \textcolor{lightgray}{\rule{14cm}{0.3pt}}\\[0.3cm]
+%     {\small\textit{Ce rapport détaille la conception complète de la chaîne logistique\\
+%     pour la fabrication et la distribution de liners prothétiques intelligents.}}
+%   \end{center}
+%   \vfill
+% \end{titlepage}
+
+
+%% ===== SECTION 1 =====
+\section{Introduction et Contexte}
+
+La partie logistique du projet a été conçue selon la méthode \textbf{QQOQCP}
+(Quoi, Qui, Où, Quand, Comment, Pourquoi), telle que prescrite dans le powerpoint de la partie logistique (source).
+Cette méthode permet de modéliser la chaîne opérationnelle complète, depuis l'approvisionnement en matières
+premières jusqu'à la livraison du produit fini chez le client, en passant par toutes les étapes de
+fabrication et de contrôle qualité. Le résultat est une chaîne logistique représentée sous forme de diagrammes BPMN (Business Process Model and Notation) et d'une
+nomenclature (Bill of Materials).
+
+%% ===== SECTION 2 =====
+\section{Quoi : Le Produit et les Processus (BPMN)}
+
+\subsection{Description du produit fini}
+
+Le produit livré au client est un ensemble (P-000) comprenat :
 \begin{itemize}
-  \item \textbf{Quoi ?} opérations et processus (inspiration BPMN : séquencement des tâches).
-  \item \textbf{Qui ?} acteurs internes/externes, responsabilités, ressources humaines.
-  \item \textbf{Où ?} lieux, partenaires, transports amont/aval.
-  \item \textbf{Quand ?} durées et fréquences, logique de planning et gestion de commande.
-  \item \textbf{Comment ?} moyens, procédures, nomenclature, gamme opératoire, qualité, emballage, déchets.
-  \item \textbf{Pourquoi ?} calcul du coût de revient, rationalisation, création de valeur client.
+  \item Un liner en silicone avec réseau de capteurs intégré et cupule (référence SA1);
+  \item Une partie électronique (PCB, STM32, batterie LiPo) assemblée à la prothèse;
+  \item Un emballage pour l'expédition et la livraison (carton, papier bulle, étiquettes).
 \end{itemize}
 
+Le coût de revient total par liner estimé est de 354,24\euro{}, réparti en trois sous-ensembles~:
 
-\section{Chaîne logistique imaginée (état actuel)}
-À ce stade, la chaîne logistique est décrite en postes (macro-étapes) qui couvrent l'ensemble du flux :
+\begin{center}
+\begin{tabular}{llr}
+  \toprule
+  \textbf{Sous-ensemble} & \textbf{Code} & \textbf{Coût/liner} \\
+  \midrule
+  Liner avec capteur     & SA1           & 183,82~\euro{} \\
+  Électronique           & SA2           & 122,09~\euro{}       \\
+  Emballage + Livraison  & SA3           & 48,32~\euro{}        \\
+  \midrule
+  \textbf{Total produit fini} & \textbf{P-000} & \textbf{354,24~\euro{}} \\
+  \bottomrule
+\end{tabular}
+\end{center}
+\vspace{0.5cm}
+
+\subsection{Macro-processus opérationnel}
+
+Le BPMN conçu pour ce projet articule cinq grands blocs fonctionnels, chacun décomposé en
+sous-étapes (processus):
+
 \begin{enumerate}
-  \item \textbf{Commande} des intrants et consommables : silicone, textile/étiquette, électronique, batterie, capteurs, emballages (cartons, papier bulle), cupule et consommables (cartouche encre), ainsi que la réception de commande client.
-  \item \textbf{Inventaire à la réception} : réception et mise en stock des intrants fournisseurs (approvisionnement) et des données clients (commandes, informations de contact, informations sur la prothèse, les dimensions et la postion suggérée des capteurs).
-  \item \textbf{Préparation} : préparation des matériaux + préparation capteurs/cupule
-  \item \textbf{Fabrication liner} : moulage 1, séchage 1, pose réseau capteur, moulage 2, séchage 2, contrôles qualité, mise en place cupule, impression numéro de série.
-  \item \textbf{Fabrication électronique} : préparation/fabrication de la partie électronique + contrôle qualité.
-  \item \textbf{Assemblage liner--électronique--prothèse} : connexion électronique/capteurs, adaptation prothèse si nécessaire, contrôle qualité final.
-  \item \textbf{Expédition} : emballage (carton + papier bulle) et préparation d’envoi.
-  \item \textbf{Inventaire après} : mise en stock du produit fini (liner et éléments associés), suivi de paramètres (durée de vie/outillage).
-  \item \textbf{Administratif} : gestion fournisseurs/clients (factures, suivi dossiers), et fonctions support (R\&D, RH, marketing/démarchage).
+  \item Commande : déclenché mensuellement par le Gestionnaire~;
+  \item Inventaire \& Stockage : contrôle qualité à l'entrée pour chaque matière/donnée;
+  \item Fabrication du liner : production du liner (moulage 1 et 2, mise en pcle capteur, cupule, etc);
+  \item Fabrication électronique : assemblage de la partie électronique (PCB, STM32, batterie) en parallèle du liner;
+  \item Assemblage : connexion liner-électronique-prothèse et calibrage;
+  \item Emballage \& Expédition : conditionnement et remise au livreur UPS.
 \end{enumerate}
 
-\begin{table}[H]
-\centering
-\small
-\begin{tabular}{p{3.5cm} S[table-format=3.2] S[table-format=3.2]}
-\toprule
-\textbf{Poste} & {\textbf{CV matériaux}} & {\textbf{MO opérateur}}\\
-\midrule
-Commande & 298.68 & 87.75\\
-Inventaire avant & 0.00 & 87.75\\
-Préparation & 0.00 & 81.25\\
-Fabrication liner & 0.00 & 146.25\\
-Fabrication électronique & 0.00 & 13.00\\
-Assemblage liner--électronique--prothèse & 0.00 & 74.75\\
-Expédition & 0.00 & 6.50\\
-Inventaire après & 0.00 & 48.75\\
-\bottomrule
+Chaque processus est modélisé sous forme de logigramme BPMN, avec des points de contrôle qualité formels à chaque étape critique (ex. après moulage 1, après moulage 2, après assemblage électronique, etc),
+garantissant la traçabilité et la conformité réglementaire du dispositif médical de classe IIa.
+
+%% ===== SECTION 3 =====
+\section{Qui : Acteurs et Ressources Humaines}
+
+\subsection{Rôles internes}
+
+Deux profils principaux structurent l'organisation de l'atelier.
+
+\textbf{Le Gestionnaire} est responsable de l'ensemble des activités de pilotage:
+\begin{itemize}
+  \item Gestion des commandes fournisseurs (mensuel);
+  \item Réception et validation des commandes clients;
+  \item Gestion RH, marketing, R\&D et administrative;
+  \item Gestion des litiges fournisseurs et clients;
+  \item Émission des factures.
+\end{itemize}
+
+\textbf{L'Ouvrier qualifié} exécute toutes les opérations de production et logistique physique~:
+\begin{itemize}
+  \item Inventaire avant production (mensuel);
+  \item Préparation des matières (pesée silicone, découpe textile, vérification composants);
+  \item Fabrication du liner (moulage 1 et 2, pose réseau capteur, cupule, impression UDI);
+  \item Assemblage électronique et connexion au liner~;
+  \item Contrôles qualité (4 points de contrôle formels dans le flux);
+  \item Emballage, inventaire après production, préparation expédition.
+\end{itemize}
+
+\subsection{Dimensionnement RH}
+
+Sur base du volume de production estimé et des temps opératoires de la gamme, l'entreprise prévoit:
+
+\vspace{0.5em}
+\begin{center}
+\begin{tabular}{lrr}
+  \toprule
+  \textbf{Profil} & \textbf{Salaire brut mensuel} & \textbf{Coût horaire (charges incluses)} \\
+  \midrule
+  Gestionnaire/commercial & 5\,800\euro{} & 39,56\euro{}/h \\
+  Ouvrier qualifié  & 4\,445\euro{} & 30,32~\euro{}/h \\
+  \bottomrule
 \end{tabular}
-\caption{Coûts variables --- synthèse par poste (valeurs intermédiaires).}
-\label{tab:couts_variables_poste}
-\end{table}
+\end{center}
+\vspace{0.5em}
+
+Ces montants intègrent les charges patronales (25\,\%), le 13\textsuperscript{ème} mois et le pécule
+de vacances, conformément à la législation sociale belge.
+
+%% ===== SECTION 4 =====
+\section{Où : Localisation, Fournisseurs et Transport}
+
+\subsection{Site de production}
+
+L'entreprise prévoit de louer un bâtiment industriel de 300m² en région liégeoise
+(Belgique), pour un loyer mensuel estimé à \textbf{3\,500~\euro{}/mois}. Cette superficie est
+dimensionnée pour accueillir l'atelier de moulage, la zone d'assemblage électronique, le stock de
+matières premières et le bureau du gestionnaire.
+
+\subsection{Réseau de fournisseurs}
+
+% La nomenclature (BOM) identifie les fournisseurs pour chaque composant~:
+
+% \vspace{0.5em}
+% \begin{center}
+% \begin{tabular}{llrr}
+%   \toprule
+%   \textbf{Composant} & \textbf{Fournisseur} & \textbf{Prix unitaire} & \textbf{Unité commande} \\
+%   \midrule
+%   Silicone             & Devis     & 52,03~\euro{}/kg & Par 10~kg   \\
+%   Textile nylon-spandex & Etsy            & 12,50~\euro{}    & Par 50~pcs  \\
+%   Capteur              & (déduit BOM)     & 74,89~\euro{}    & Unité       \\
+%   Cupule               & PCBway           & 18,88~\euro{}    & Par 10~pcs  \\
+%   PCB                  & PCBally          & 80,00~\euro{}    & Par 100~pcs \\
+%   STM32 (µcontrôleur)  & Mouser.fr        & 17,11~\euro{}    & Unité       \\
+%   Batterie LiPo        & Amazon.be        & 26,00~\euro{}    & Unité       \\
+%   Carton d'expédition  & Rajapack.be      & 1,68~\euro{}     & Par 1\,000  \\
+%   Papier bulle         & Brico.be         & 0,58~\euro{}/m²  & Par 50~m²   \\
+%   Étiquettes           & Brother (QL-600) & 0,24~\euro{}     & Par 100pcs \\
+%   \bottomrule
+% \end{tabular}
+% \end{center}
+% \vspace{0.5em}
+
+La nomenclature identifie dix composants clés avec leurs prix unitaires : silicone à 52,03\euro{}/kg, textile nylon-spandex à 12,5\euro{}/textile, capteurs à 74,89\euro{}/capteur, cupules à 18.88\euro{}/cupule, PCB à 80\euro{}/PCB, STM32 à 17,11\euro{}/STM, batterie LiPo à 26,00\euro{}/Batterie, carton d'expédition à 1,68\euro{}/carton, papier bulle à 0,58\euro{}/m², et étiquettes à 0,24\euro{}/étiquette. Le détail complet est disponible dans l'Excel en annexe.
 
 
+Les commandes sont mensuelles, basées sur un calcul des quantités nécessaires pour le
+mois suivant, avec un inventaire de début de mois réalisé par le gestionnaire.
 
-\section{Synthèse coûts (données actuelles)}
-\subsection{Coût variable unitaire (CV)}
-Le fichier de calcul indique un CV total de 298.68{\euro} par unité produite (valeur actuelle de travail) pour la composante « matériaux/consommables » au poste commande.\\
-Le modèle intègre aussi des temps opérateur par poste (préparation, fabrication, assemblage, expédition, inventaires), utilisés pour estimer la main d'œuvre variable.
+\subsection{Transport et livraison}
 
+La livraison des produits finis aux clients est faite par UPS, avec un coût de livraison de
+45,34~\euro{} par colis. Ce tarif représente 12,8\,\% du coût de revient
+total, ce qui en fait le poste de coût important. Le livreur
+UPS passe directement à l'atelier pour prendre en charge les colis après leur mise en stock et mise à
+jour d'inventaire.
 
-\begin{table}[H]
-\centering
-\renewcommand{\arraystretch}{1.05} % ajustement de l'espacement vertical
-\setlength{\tabcolsep}{7pt}
-\begin{tabularx}{\textwidth}{|p{3.2cm}|p{3.2cm}|p{2.6cm}|X|}
-\hline
-\textbf{Composant} & \textbf{Quantité/Liner} & \textbf{Coût Unitaire} & \textbf{Source/Commentaire} \\
-\hline
-Silicone & 360g (2x180g) & 10\texteuro/g & Matière contituant le liner \\
-\hline
-Textile + étiquette & 1 pièce & 25\texteuro/pcs & Chaussettes techniques personnalisées \\
-\hline
-Électronique & 1 pièce & 200\texteuro/pcs & Carte de contrôle STM  \\
-\hline
-% Batterie & 1 pièce & 10\texteuro/pcs & Batterie rechargeable pour alimentation du système \\
-% \hline
-% Capteurs & 15 pièces & 10\texteuro/pcs & Réseau de capteurs de pression intégrés \\
-% \hline
-Cupule & 1 pièce & 30\texteuro/pcs & Point d'encrage avec la prothèse \\
-\hline
-Carton d'emballage & 1 pièce & 10\texteuro/pcs & Emballage de protection pour expédition \\
-\hline
-Papier bulle & 2 pièces & 10\texteuro/pcs & Protection liner et prothèse séparément \\
-\hline
-Matérielle de marcage & 1 pièce & 200\texteuro/pcs & Impression code UDI (usage infime par liner) \\
-\hline
-\end{tabularx}
-\caption{Nomenclature des composants et hypothèses de coûts (version intermédiaire).}
-\label{tab:composants-couts}
-\end{table}
+%% ===== SECTION 5 =====
+\section{Quand : Temporalité et Fréquences}
 
-\newpage
+\subsection{Périodicité des processus}
 
-\subsection{Coûts fixes (CF) et structure}
-Les coûts fixes listés comprennent : loyer, moules, équipements (ex. dégazage, étuve, extraction, métrologie), mobilier, services (comptable, assurances, leasing) et salaires.\\
-Le tableau de synthèse des CF met en évidence :
-
-\begin{longtable}{p{5.2cm} S[table-format=6.2] S[table-format=4.0] p{2.6cm}}
-\toprule
-\textbf{Nom} & {\textbf{Coût unitaire}} & {\textbf{Qté}} & \textbf{Périodicité}\\
-\midrule
-\endhead
-Loyer bâtiment & 4000.00 & 1 & mensuel\\
-Moule positif petit & 1500.00 & 11 & 60 mois\\
-Moule négatif & 1500.00 & 11 & 60 mois\\
-Moule positif grand & 1500.00 & 11 & 60 mois\\
-Machine pour écrire le code UDI & 5000.00 & 1 & 60 mois\\
-Outillage en tout genre & 12500.00 & 1 & 60 mois\\
-Balance & 420.00 & 1 & 60 mois\\
-Chambre vide (dégazage) & 1000.00 & 1 & 60 mois\\
-Étuve & 1890.00 & 1 & 60 mois\\
-Duromètre & 121.00 & 3 & 60 mois\\
-Extracteur & 3000.00 & 1 & 60 mois\\
-Mobilier + accessoires & 4900.00 & 1 & 60 mois\\
-Salaire moyen ouvrier & 9056.85 & 2 & mensuel\\
-Salaire gestionnaire/commercial & 10703.55 & 1 & mensuel\\
-Comptable & 3600.00 & 1 & annuel (12 mois)\\
-Leasing & 800.00 & 1 & mensuel\\
-Assurance incendie & 300.00 & 1 & mensuel\\
-Assurance exploitation & 300.00 & 1 & mensuel\\
-\bottomrule
-\caption{Extrait de coûts fixes (valeurs de travail, à valider et documenter).}
-\end{longtable}
-
+Le flux opérationnel distingue deux fréquences fondamentales~:
 
 \begin{itemize}
-  \item un \textbf{coût de démarrage} (investissement / mois initial) : \SI{116390.25}{\euro},
-  \item un \textbf{niveau mensuel récurrent} : \SI{34217.25}{\euro} (avec une variation à \SI{37817.25}{\euro} sur certains mois dans la table).
+  \item Processus mensuels (pris en charge par le Gestionnaire) : commandes fournisseurs, inventaire
+    général, gestion RH, marketing, R\&D, suivi comptable~;
+  \item Processus par liner (à chaque commande client): préparation matières,
+    fabrication, assemblage, contrôle qualité, emballage, expédition.
 \end{itemize}
 
-\section{Points ouverts et prochaines validations}
-Plusieurs données sont encore non acquises sur plusieurs lignes (prix fournisseurs, quantités, pertes, temps exacts), ce qui implique une phase de consolidation.
-Les priorités de validation logistique sont :
+\subsection{Temps de cycle de fabrication}
+
+Les temps opératoires clés identifiés dans la gamme sont:
+
+\vspace{0.5em}
+\begin{center}
+\begin{tabular}{lr}
+  \toprule
+  \textbf{Opération} & \textbf{Durée estimé pour un opérateur} \\
+  \midrule
+  Préparation des matières premières     & 2h \\
+  Fabrication liner                      & 2h05 ($+$ $2 \times 4$~h de polymérisation)  \\
+  Assemblage électronique hors liner     & 2h     \\
+  Connexion électronique + calibrage     & 1h       \\
+  Emballage + inventaire + expédition    & 1/3h \\
+  \bottomrule
+\end{tabular}
+\end{center}
+\vspace{0.5em}
+Le temps de cycle total par liner est dominé par les deux phases de polymérisation du silicone.
+La production en batch sur les \textbf{11 jeux de moules} disponibles (positifs
+petits, grands et négatifs) permet de paralléliser la fabrication.
+
+
+
+
+%% ===== SECTION 6 =====
+\section{Comment : Gamme Opératoire et Nomenclature}
+
+\subsection{Nomenclature (BOM) structurée}
+
+La nomenclature est organisée sur trois niveaux~:
 \begin{itemize}
-  \item \textbf{Approvisionnement} : délais.
-  \item \textbf{Gamme opératoire} : stabiliser les temps (opérateur/machine), identifier les goulots (séchage, QC, assemblage).
-  \item \textbf{Qualité \& traçabilité} : formaliser contrôles, critères d’acceptation, documentation.
-  \item \textbf{Distribution \& SAV} : définir le circuit (livraison, retours, support), souvent sous-estimé dans les rapports.
-  \item \textbf{Cohérence finance--capacité} : relier volumes, capacité atelier, coûts fixes et coût unitaire.
+  \item Niveau 0: Produit fini P-000 (Liner + électronique emballé);
+  \item Niveau 1: Trois sous-ensembles (SA1 Liner, SA2 Électronique, SA3 Emballage/Livraison)~;
+  \item Niveaux 2: Composants élémentaires avec codes, prix unitaires, quantités par liner
+    et sources fournisseurs.
 \end{itemize}
+
+\subsection{Gamme opératoire : Fabrication Liner}
+
+La fabrication du liner suit une séquence stricte en deux cycles de moulage.
+
+\textbf{Préparation:}
+\begin{enumerate}
+  \item Pesée du silicone ($\sim$1,5kg), mélange (3~min), dégazage sous vide (10min)~;
+  \item Découpe du textile aux bonnes dimensions;
+  \item Vérification et formation du réseau de capteurs selon données patient.
+  \item Préparation de la cupule (choix selon prothèse, vérification dimensions).
+\end{enumerate}
+
+\textbf{Moulage 1 : Intégration textile:}
+\begin{enumerate}
+  \item Choix des moules (négatif + positif grand) selon morphologie du patient;
+  \item Positionnement du textile au fond du moule négatif;
+  \item Versage du silicone préparé dans le moule négatif;
+  \item Positionnement et vissage du moule positif grand~
+  \item Polymérisation : attente 4~heures;
+  \item Dévissage, retrait du moule positif, contrôle qualité 1 (aspect, homogénéité,
+    liaison textile-silicone).
+\end{enumerate}
+
+\textbf{Moulage 2 : Intégration réseau capteur~:}
+\begin{enumerate}[leftmargin=1.5em]
+  \item Positionnement du réseau de capteurs dans le moulage 1;
+  \item Versage d'une nouvelle couche de silicone, pose du moule positif petit;
+  \item Polymérisation: attente 4~heures;
+  \item Contrôle qualité 2 (réseau capteur + liner).
+\end{enumerate}
+
+\textbf{Finitions:}
+\begin{enumerate}[leftmargin=1.5em]
+  \item Mise en place de la cupule, contrôle qualité 3;
+  \item Impression du code UDI, marquage CE et logo (traçabilité réglementaire classe IIa).
+\end{enumerate}
+
+\subsection{Gamme opératoire : Fabrication et Assemblage Électronique}
+
+La partie électronique (PCB + STM32 + batterie) est assemblée en parallèle de la fabrication
+du liner, optimisant ainsi le temps de cycle global~:
+
+\begin{enumerate}
+  \item Vérification de tous les composants électroniques et de la charge batterie;
+  \item Assemblage hors-liner de la partie électronique;
+  \item Contrôle qualité électronique (fonctionnement et connectique);
+  \item Modification/perçage de la prothèse pour l'intégration mécanique;
+  \item Connexion du réseau de capteurs du liner à la partie électronique~;
+  \item Calibrage du liner (adaptation au patient);
+  \item Contrôle qualité final de l'ensemble liner-électronique-prothèse.
+\end{enumerate}
+
+En cas de non-conformité à chaque point de contrôle, un arbre de décision est prévu: modification si
+possible, mise au rebut avec récupération des composants réutilisables (cupule, textile) si possible.
+
+%% ===== SECTION 7 =====
+\section{Infrastructure et Équipements}
+
+\subsection{Équipements de production (CAPEX)}
+
+Les investissements principaux pour la mise en production sont les suivants:
+
+\vspace{0.5em}
+\begin{center}
+\begin{tabular}{lrrr}
+  \toprule
+  \textbf{Équipement} & \textbf{Coût unitaire} & \textbf{Qté} & \textbf{Amort.} \\
+  \midrule
+  Moules positifs petits (aluminium)   & 1\,980~\euro{}  & 11 & 60~mois \\
+  Moules négatifs (aluminium)          & 2\,500~\euro{}  & 11 & 60~mois \\
+  Moules positifs grands (aluminium)   & 2\,500~\euro{}  & 11 & 60~mois \\
+  Chambre à vide (dégazage)            & 1\,000~\euro{}  &  1 & 60~mois \\
+  Étuve (finition silicone)            & 3\,865~\euro{}  &  1 & 60~mois \\
+  Balance de précision                 &   420~\euro{}   &  1 & 60~mois \\
+  Duromètres (dureté silicone Shore A) &   300~\euro{}   &  3 & 60~mois \\
+  Extracteur de fumées                 & 1\,960~\euro{}  &  1 & 60~mois \\
+  Machine impression UDI               & 5\,000~\euro{}  &  1 & 60~mois \\
+  Outillage atelier complet            & 23\,607~\euro{} &  1 & 60~mois \\
+  Equipement entreprise                & 14\,000~\euro{}  &  1 & 60~mois \\
+   \midrule
+  \bottomrule
+\end{tabular}
+\end{center}
+\vspace{0.5em}
+
+\subsection{Infrastructure numérique}
+
+La chaîne logistique est supportée par un ERP/système de gestion de stock
+(Microsoft Dynamics 365) permettant la traçabilité des stocks, la gestion des commandes
+clients et fournisseurs, ainsi que la comptabilité. SolidWorks est utilisé pour la conception 3D des
+moules et la vérification dimensionnelle des liners. Le coût annuel des licences logicielles est estimé
+à 15\,264,95~\euro{}/an.
+
+%% ===== SECTION 8 =====
+\section{Pourquoi : Valeur Générée et Coût de Revient}
+
+\subsection{Justification économique de la chaîne logistique}
+
+La logistique conçue devrait avoir un coût de revient de 354,24~\euro{}/liner,
+permettant de dégager une marge au vu du remboursement INAMI pour les liners sur mesure (2696,83~\euro{}), \url{https://www.inami.fgov.be/SiteCollectionDocuments/nomenclatureart28_1_20250701_01.pdf} (p7).
+La valeur créée pour le patient va au-delà du coût matière: c'est l'adaptation
+dynamique du liner, la précision du réseau de capteurs et la personnalisation morphologique qui
+constituent la proposition de valeur.
+
+\subsection{Conformité réglementaire comme élément logistique}
+
+L'impression du code UDI (Unique Device Identifier, https://www.imdrf.org/sites/default/files/docs/imdrf/final/technical/imdrf-tech-131209-udi-guidance-140901.pdf) et du marquage CE classe IIa (https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=celex:32017R0745R(01))
+(selon le règlement UE 2017/745 sur les dispositifs médicaux) est intégrée directement dans la gamme
+de fabrication, au même titre qu'une opération de production.
+
+% \subsection{Gestion des non-conformités et taux de rebut}
+
+% Le flux BPMN prévoit systématiquement des boucles de récupération à chaque point de contrôle qualité.
+% La politique est la suivante~:
+
+% \begin{itemize}[leftmargin=1.5em]
+%   \item \textbf{Silicone/liner non conforme}~: mise au rebut du silicone, récupération de la cupule et
+%     du textile si possible~;
+%   \item \textbf{Électronique défaillante}~: identification et remplacement du composant défectueux~;
+%   \item \textbf{Prothèse non conforme après assemblage}~: séparation des sous-ensembles, diagnostic de
+%     la cause racine.
+% \end{itemize}
+
+% Cette approche limite les pertes financières tout en garantissant qu'aucun produit non conforme n'est
+% expédié au client, ce qui est une exigence absolue pour un dispositif médical de classe IIa.
+
+%% ===== SECTION 9 =====
+\section{Conclusion}
+
+La chaîne logistique du projet liner prothétique a été conçue selon
+le cadre \textbf{QQOQCP}. Le BPMN couvre le flux opérationnel, de la commande
+fournisseur à la livraison client. La gamme opératoire identifie le moulage en
+silicone (2$\times$4h de polymérisation) comme le goulot d'étranglement principal, que la
+production en parallèle sur \textbf{11~jeux de moules} permet de mitiger. Enfin, l'intégration de la
+traçabilité réglementaire (UDI, CE IIa) directement dans le flux de production positionne l'entreprise
+pour répondre aux exigences du marché des dispositifs médicaux dès le lancement, et facilite à terme
+le rachat de l'entreprise par Tecfit SRL.
 
 
 
